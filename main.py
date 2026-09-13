@@ -31,7 +31,7 @@ if not BOT_TOKEN:
 REQUIRED_CHANNELS = ["@Darkfflikes_Bot"]
 GROUP_JOIN_LINK = "https://t.me/darklikesgrupo"
 OWNER_ID = 8510842268
-OWNER_USERNAME = "@@DarkFFzx7"
+OWNER_USERNAME = "@DarkFFzx7"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 like_tracker = {}   # in-memory cache
